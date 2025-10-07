@@ -61,6 +61,7 @@ document.getElementById("surveyForm").addEventListener("submit", function (e) {
     console.log("Submitted Survey Data:", formData);
 
     // ✅ Open thankyou.html in a popup window
-    window.open("thankyou.html", "ThankYouPopup", "width=600,height=400");
+    //window.open("thankyou.html", "ThankYouPopup", "width=600,height=400");
+	window.location.replace("thankyou.html");
   }
 });
